@@ -1,0 +1,64 @@
+body {
+    font-family:Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:burlywood
+}
+header  {
+    background-color: black;
+    color: bisque;
+    text-align: center;
+    padding: 15px;
+}
+nav a{
+    color:white;
+}
+nav a:hover{
+    color:burlywood;
+    text-decoration: underline;
+    margin: 0 10px;
+    font-weight: bold;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+section{
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:blanchedalmond;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+footer{
+    text-align: center;
+    background-color: #333;
+    color:white;
+    padding: 10px;
+    margin-top: 20px;
+}
+form{
+    background-color: #f9f9f9;
+    padding:15px;
+    border-radius: 5px;
+}
+input[type="text"], input[type="email"]{
+    width: 90%;
+    padding: 8px;
+    margin:5px 0;
+    border:1px solid #ddd
+}
+input[type="submit"]{
+    background-color:blueviolet ;
+    color:white;
+    padding:10px;
+    border:none;
+    cursor:pointer;
+}
+deltbtn{
+    background-color: rgb(163, 21, 21);
+}
+sendbtn{
+    background-color: green;
+}
+
+
